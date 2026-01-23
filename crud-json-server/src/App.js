@@ -14,7 +14,7 @@ class App extends React.Component {
       };
     }
 
-    getList = () => {
+    getLists = () => {
       fetch("http://localhost:5000/posts")
       .then(res => res.json())
       .then(result =>
@@ -32,6 +32,7 @@ class App extends React.Component {
       ) : (
         <Lists alldata={this.state.alldata} />
       );
+      return (
       <div className="container">
         <span className="title-bar">
           <button 
@@ -43,6 +44,7 @@ class App extends React.Component {
           {listTable}
         </span>
       </div>
+      )
     }
   }
 

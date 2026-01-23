@@ -1,5 +1,5 @@
 import React from 'react';
-import "bootstap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Lists(props) {
     let listrows = [];
@@ -14,7 +14,7 @@ function Lists(props) {
 
     })
     return (
-        <table className="table table=striped">
+        <table className="table table.striped">
             <thead>
                 <tr>
                     <th>#</th>
