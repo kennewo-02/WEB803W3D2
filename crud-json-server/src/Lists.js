@@ -1,4 +1,5 @@
 import React from 'react';
+import UpdateList from './UpdateList_ken';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Lists(props) {
@@ -9,6 +10,15 @@ function Lists(props) {
                 <td>{element.id}</td>
                 <td>{element.title}</td>
                 <td>{element.author}</td>
+                <td>
+                    <UpdateList
+                    elementId={element.id}
+                    singledata={props.singledata}
+                    getList={props.getList}
+                    updateList={props.handleChange}
+                    >
+                    </UpdateList>
+                </td>
             </tr>
         )
 
