@@ -19,6 +19,11 @@ function Lists(props) {
                     >
                     </UpdateList>
                 </td>
+                   <td>
+                    <button className="btn btn-danger btn"
+                    onClick={(e) => props.deleteList(e, element.id)}
+                    >Delete</button>
+                </td>
             </tr>
         )
 

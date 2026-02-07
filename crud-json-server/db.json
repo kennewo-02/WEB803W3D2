@@ -26,14 +26,14 @@
       "id": 6
     },
     {
-      "title": "",
-      "author": "",
-      "id": 7
-    },
-    {
       "title": "test",
       "author": "George Orwell",
       "id": 8
+    },
+    {
+      "title": "Don't Play",
+      "author": "Mike Tyler",
+      "id": 9
     }
   ]
 }
